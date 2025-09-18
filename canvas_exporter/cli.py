@@ -45,7 +45,7 @@ def join_channel(channel_id: str, token: str):
 
 
 class CanvasesConfig(BaseModel):
-    channels: dict[ChannelId, list[CanvasId]]  # channel_id -> list of canvas_ids
+    channels: dict[ChannelId, dict[CanvasId, str]]  # channel_id -> list of canvas_ids
 
 
 @click.command("from-file")
@@ -62,14 +62,26 @@ def from_file(config_file: str, token: str, output: Path):
         raise click.UsageError("SLACK_TOKEN environment variable is required")
     with open(config_file, "r") as file:
         data = yaml.safe_load(file)
+        if not isinstance(data, dict):
+            raise click.ClickException(
+                f"Invalid config file format: expected a dict, got {type(data)}"
+            )
         config = CanvasesConfig(**data)
     slack = SlackClient(token)
     for channel_id in config.channels:
+        print(f"Ensuring the bot is in all {len(config.channels)} channels...")
         try:
             response = slack.join_channel(channel_id)
-            print(f"✅ Joined channel {channel_id} (#{response['channel']['name']})")
+            if "warning" in response and response["warning"] == "already_in_channel":
+                print(
+                    f"✅ Already in channel {channel_id} (#{response['channel']['name']})"
+                )
+            else:
+                print(
+                    f"🆕 Joined channel {channel_id} (#{response['channel']['name']})"
+                )
         except SlackApiError as e:
-            print(f"Error joining channel {channel_id}: {e.response['error']}")
+            print(f"💥 Error joining channel {channel_id}: {e.response['error']}")
 
 
 cli.add_command(export)

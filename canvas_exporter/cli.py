@@ -48,10 +48,16 @@ class CanvasesConfig(BaseModel):
     channels: dict[ChannelId, list[CanvasId]]  # channel_id -> list of canvas_ids
 
 
-@click.command()
+@click.command("from-file")
 @click.option("--token", envvar=["SLACK_TOKEN", "SLACK_BOT_TOKEN"])
+@click.option(
+    "--output",
+    type=click.Path(),
+    default=Path("..", "canvases"),
+    help="directory to save the canvases in",
+)
 @click.argument("config_file", type=click.Path(exists=True))
-def from_file(config_file: str, token: str):
+def from_file(config_file: str, token: str, output: Path):
     if not token:
         raise click.UsageError("SLACK_TOKEN environment variable is required")
     with open(config_file, "r") as file:
@@ -68,3 +74,4 @@ def from_file(config_file: str, token: str):
 
 cli.add_command(export)
 cli.add_command(join_channel)
+cli.add_command(from_file)

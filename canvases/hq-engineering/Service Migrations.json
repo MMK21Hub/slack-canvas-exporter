@@ -1,0 +1,118 @@
+{
+  "id": "F05TY6SLR5J",
+  "created": 1695684307,
+  "timestamp": 1695684307,
+  "name": "Service_Migrations",
+  "title": "Service Migrations",
+  "mimetype": "application/vnd.slack-docs",
+  "filetype": "quip",
+  "pretty_type": "Canvas",
+  "user": "U04QH1TTMBP",
+  "user_team": "T0266FRGM",
+  "editable": true,
+  "size": 2753,
+  "mode": "quip",
+  "is_external": false,
+  "external_type": "",
+  "is_public": true,
+  "public_url_shared": false,
+  "display_as_bot": false,
+  "username": "",
+  "url_private": "https://files.slack.com/files-pri/T0266FRGM-F05TY6SLR5J/canvas",
+  "url_private_download": "https://files.slack.com/files-pri/T0266FRGM-F05TY6SLR5J/download/canvas",
+  "permalink": "https://hackclub.slack.com/docs/T0266FRGM/F05TY6SLR5J",
+  "permalink_public": "https://slack-files.com/T0266FRGM-F05TY6SLR5J-f865a0e0b7",
+  "url_static_preview": "https://hackclub.slack.com/docs/T0266FRGM/F05TY6SLR5J/mobile",
+  "quip_thread_id": "MDB9AA4Iuz2",
+  "updated": 1757205436,
+  "update_notification": 1746197286,
+  "canvas_readtime": 1.4660778803693,
+  "favorites": [],
+  "is_starred": false,
+  "shares": {
+    "public": {
+      "C05SVRTCDGV": [
+        {
+          "reply_users": [],
+          "reply_users_count": 0,
+          "reply_count": 0,
+          "ts": "1747954918.692889",
+          "channel_name": "hq-engineering",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "U04QH1TTMBP",
+          "source": "CHANNEL_TAB",
+          "is_silent_share": true
+        },
+        {
+          "reply_users": [],
+          "reply_users_count": 0,
+          "reply_count": 0,
+          "ts": "0000000000.000000",
+          "date_last_shared": 1695684309,
+          "channel_name": "hq-engineering",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "USLACKBOT",
+          "source": "UNKNOWN",
+          "is_silent_share": false
+        }
+      ]
+    }
+  },
+  "channels": [
+    "C05SVRTCDGV"
+  ],
+  "groups": [],
+  "ims": [],
+  "has_more_shares": false,
+  "access": "write",
+  "private_channels_with_file_access_count": 0,
+  "dm_mpdm_users_with_file_access": [
+    {
+      "user_id": "U04QH1TTMBP",
+      "access": "write"
+    }
+  ],
+  "teams_shared_with": [],
+  "is_restricted_sharing_enabled": true,
+  "has_rich_preview": false,
+  "file_access": "visible",
+  "org_or_workspace_access": "none",
+  "title_blocks": [
+    {
+      "type": "rich_text",
+      "block_id": "aTsWs",
+      "elements": [
+        {
+          "type": "rich_text_section",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Service Migrations"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "canvas_creator_id": "U04QH1TTMBP",
+  "team_pref_version_history_enabled": true,
+  "canvas_printing_enabled": true,
+  "is_ai_suggested": false,
+  "editors": [
+    "U08B60DCYG2",
+    "U080HHYN0JD",
+    "U08PKP4H2S1",
+    "U06QK6AG3RD",
+    "U078H6SG59Q",
+    "U07F7BPRAUC",
+    "U04QH1TTMBP",
+    "U04KP6JF9NH",
+    "U082L0UTJ66",
+    "U041DAECHHA"
+  ],
+  "edit_timestamp": 1749137660,
+  "show_badge": false,
+  "comments_count": 0
+}

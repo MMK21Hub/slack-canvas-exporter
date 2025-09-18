@@ -1,0 +1,92 @@
+<h1 id='temp:C:eXN25baaf056e1747978a579732b'>Custom CSS Cheatsheet</h1>
+
+<p id='temp:C:eXN0afb16f591cc47b6b477969f9' class='line'>This document provides you with a way to customize your SoM profile page however you want! Anyone can contribute to this document! : )</p>
+
+<h2 id='temp:C:eXNb3fa80bca4ce4b3282913e7a5'>Customizing your profile picture's size</h2>
+
+<p id='temp:C:eXN1bcda4f22d3149b189fe0355e' class='line'>The following code customizes your profile picture:</p>
+
+<pre id='temp:C:eXN24c17a701c894576bd257de9a' class='prettyprint'>.profile-avatar {<br>  width: 300px;<br>  height: 300px;<br>}</pre>
+
+<p id='temp:C:eXN4c8fe22e01f1480ba64475b3f' class='line'>This code sets your profile picture to be 300 pixels in width and height.</p>
+
+<p id='temp:C:eXN7302d4a7299c43d8b9ab146f3' class='line'>​</p>
+
+<p id='temp:C:eXN66804fe8dd304560af4db269a' class='line'>Additionally, if you want your profile picture to look square:</p>
+
+<pre id='temp:C:eXN670d2cd9e94f4bb4938ec9f67' class='prettyprint'>border-radius: 25px;</pre>
+
+<p id='temp:C:eXN74fd130ea1d94b3187cecc1a7' class='line'>sets the <code>border-radius</code> of your profile picture to only 25 pixels, making it a rounded square.</p>
+
+<p id='temp:C:eXNdc8d4bd3d90a47b48f66e3f19' class='line'>You can also change the image and size with this:</p>
+
+<pre id='temp:C:eXNa96847a698b8437db57be8a45' class='prettyprint'>.profile-avatar { display: none; }<br><br>.profile-header::before {<br>  content: "";<br>  display: block;<br>  <br>  width: 256px;<br>  height: 256px;<br>  <br>  background-image: url("https://placehold.co/256x256/png");<br>  background-size: cover;<br>  background-position: center;<br>  <br>  border-radius: 100%;<br>  <br>  margin-left: auto;<br>  margin-right: auto;<br>  margin-bottom: 1rem;<br>}</pre>
+
+<h2 id='temp:C:eXN41632cd7ccd64627ac0882115'>Customizing the "Activity" header</h2>
+
+<p id='temp:C:eXN1e62a92fbdf84f6881d9cbe6d' class='line'>The following code targets the "Activity" header on your profile:</p>
+
+<pre id='temp:C:eXN3fb483daf1c9442f9718772ff' class='prettyprint'>h2.text-2xl.font-bold,text-gray-800 {<br>  font-size: 30px;<br>  font-weight: 700;<br>}</pre>
+
+<p id='temp:C:eXN67bf810a9ac2416fb96381b97' class='line'>You see, <code>font-size: 30px;</code> sets the size of the heading to 30px!</p>
+
+<p id='temp:C:eXNb7d6f441471149038cd932fe2' class='line'>​</p>
+
+<h2 id='temp:C:eXNc05353c38d8940a8a2d242c42'>Customizing the background of the page with an image</h2>
+
+<p id='temp:C:eXNf6d3ac4286794c8d9e1bbe43e' class='line'>The following code targets the <code>body</code> element on the page and sets it to an image:</p>
+
+<pre id='temp:C:eXNdf02d6df8bad45f48fad03e52' class='prettyprint'>body::before {<br>  background: url("https://wallpapercrafter.com/th800/32857-Moraine-Lake-Banff-Canada-mountains-forest-4k.jpg");<br>  background-size: cover;<br>  background-repeat: no-repeat;<br>  background-position: center center;<br>}</pre>
+
+<p id='temp:C:eXN670c1bc08a11447096230df10' class='line'>It uses <code>body::before</code> as the Summer of Making website uses it to set the background image of the web pages. Thus, to override their image, you must use <code>body::before</code>.</p>
+
+<p id='temp:C:eXN612c82e340a645d181f8b5673' class='line'>​</p>
+
+<h2 id='temp:C:eXNf3fe5f6d5fc94334a61de7d87'>Customizing the background of cards on the profile page</h2>
+
+<p id='temp:C:eXN46938c14d93d43f5b35e975a4' class='line'>"Cards" refers to the rectangles that contain information on your profile, including devlogs, the sidebar that holds your profile picture, name, stats, etc.; your badges and projects.</p>
+
+<p id='temp:C:eXNe2b06c64f6d14fccadfb9ea3b' class='line'>The following code sets the background of these cards:</p>
+
+<pre id='temp:C:eXNa4b7f5768ac147479711e7e8e' class='prettyprint'>.card-with-gradient {<br>  background: rgba(255, 255, 255, 0.7) !important;<br>}</pre>
+
+<p id='temp:C:eXN0559944f0b8e4faa90322670b' class='line'><code>.card-with-gradient</code> refers to the cards mentioned above. <code>!important</code> is required as without it, Summer of Making's default style will take precedence and apply itself over your styles. This will set the background of your cards to be a translucent white.</p>
+
+<p id='temp:C:eXN7b71d27d427046a4b7b8a42ef' class='line'>Additionally, if you want a hover effect on these cards:</p>
+
+<pre id='temp:C:eXN9772126c20b7480aa46ee056f' class='prettyprint'>.card-with-gradient:hover {<br>    background: rgba(255, 255, 255, 0.9) !important;<br>}</pre>
+
+<p id='temp:C:eXN585b5608cd11488b8bc77d14b' class='line'>This will do the trick. It just makes the cards more opaque. Again, <code>!important</code> is required because without it, not only will Summer of Making's default style will take precedence and apply itself over your styles, but this style may also get overridden by the other style!</p>
+
+<p id='temp:C:eXNdde29b1d4efa4d839cbbb5123' class='line'>​</p>
+
+<h2 id='temp:C:eXN2b81d6390d5b435abf026758c'>Logging people out when they try to navigate away from your profile</h2>
+
+<p id='temp:C:eXN41fd9ac666b747d6824a32557' class='line'>​</p>
+
+<p id='temp:C:eXNa6348caf84d54083bbe178e1c' class='line'>Why not?</p>
+
+<pre id='temp:C:eXNf50e56a7061f44939143c8e20' class='prettyprint'>[data-sidebar-target="sidebar"]:not(.collapsed) form[action="/logout"] button::after {<br>    content: "";<br>    position: fixed;<br>    left: 0;<br>    top: 0;<br>    width: 366px;<br>    height: 100vh;<br>    z-index: 999999;<br>}<br>[data-sidebar-target="sidebar"]:not(.collapsed) form[action="/logout"] button:active::after {<br>    content: "Bye bye";<br>    width: 100vw;<br>    line-height: 100vh;<br>    font-size: 10vh;<br>    background: black;<br>    color: white;<br>}<br>form[action="/logout"] button div {<br>    display: none;<br>}<br></pre>
+
+<p id='temp:C:eXN88e7f4efe33145e68bbdb529f' class='line'>​</p>
+
+<h2 id='temp:C:eXNe07a5c854ef04d3b9d15f4cf4'>Identity fraud</h2>
+
+<p id='temp:C:eXN4417d64ae6ed48ec89f9a58ce' class='line'>​</p>
+
+<p id='temp:C:eXNfe68468761214a0ab12cf9a47' class='line'>Wouldn't you rather be someone else?</p>
+
+<p id='temp:C:eXNb6d2966fff0c453f8dafd5ab1' class='line'>​</p>
+
+<p id='temp:C:eXN3cef89377c0c4111b49e59013' class='line'>Steal someone else's name</p>
+
+<p id='temp:C:eXNac3a2267d5c84565b70160f11' class='line'>Replace &lt;USER NUMBER&gt; with the number at the end of your profile's url</p>
+
+<p id='temp:C:eXNcae426e2e4b2472b8d601f8c4' class='line'>Replace &lt;NEW NAME HERE&gt; with the name you want to steal</p>
+
+<pre id='temp:C:eXN6c814e531ae24c399f18bcf33' class='prettyprint'>a[href="/users/&lt;USER NUMBER&gt;"] span span {<br>  display: none;<br>}<br><br>a[href="/users/&lt;USER NUMBER&gt;"] span:before {<br>  content: '&lt;NEW NAME HERE&gt;';<br>}</pre>
+
+<p id='temp:C:eXNc67235ca9c2149e3a831d4cb1' class='line'>​</p>
+
+<p id='temp:C:eXN0067753184fa45ecb7aeabee1' class='line'>​</p>
+

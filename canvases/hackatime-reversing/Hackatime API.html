@@ -1,0 +1,141 @@
+<h1 id='temp:C:eCK12d75bf058164c3caf0bdae87'>Hackatime API</h1>
+
+<p id='temp:C:eCKa09f27e4d5c945ee810f0ed15' class='line'>Hackatime docs made by the community since official sucks</p>
+
+<p id='temp:C:eCKa4be16954f514ff6b7593e6a2' class='line'>feel free to edit!</p>
+
+<p id='temp:C:eCK6c33047f58d8421d8d7c5b52f' class='line'>​</p>
+
+<h1 id='temp:C:eCK52632a7e5f2d4536af1abdfb7'>Authentication</h1>
+
+<p id='temp:C:eCKe83eeebb2fe84c8fae4689d44' class='line'>all authentication must be provided as a header </p>
+
+<pre id='temp:C:eCK938123a1a1e847db8edb2a28e' class='prettyprint'>Authorization: Bearer API_KEY</pre>
+
+<p id='temp:C:eCK7e7905c5038c48b7baf676a72' class='line'>To find your API key, go to <a href="https://hackatime.hackclub.com/my/wakatime_setup">https://hackatime.hackclub.com/my/wakatime_setup</a> and copy HACKATIME__<i>API__</i>KEY</p>
+
+<p id='temp:C:eCK06ebcf803c634c7aa8597e586' class='line'>For example:</p>
+
+<pre id='temp:C:eCKd687cd2801c64218b9e39e153' class='prettyprint'> Authorization: Bearer 854ede89-d6cc-4d7c-9ba3-279ff68d472d (Random Key)</pre>
+
+<h1 id='temp:C:eCK7e5255b7243943c79e9089b9a'>Routes</h1>
+
+<h2 id='temp:C:eCK1bcfeec6bc714e0b845eb3206'>Retrieve User Trust Factor</h2>
+
+<pre id='temp:C:eCKb1edcdbc57824e54a1f560e98' class='prettyprint'><a href="https://hackatime.hackclub.com/api/v1/users/{SLACK_ID}/trust_factor">https://hackatime.hackclub.com/api/v1/users/{SLACK_ID}/trust_factor</a></pre>
+
+<p id='temp:C:eCK076fbd4e61544b689526becb8' class='line'>Returns the trust factor of a user which can be</p>
+
+<table><tr><td><p id='temp:C:eCK155314d0790847a9a763d34a0' class='line'>Green</p>
+
+</td><td><p id='temp:C:eCK6534a96752e946d7a0a64473c' class='line'>Trusted/Community Leader</p>
+
+</td><td><p id='temp:C:eCKbeac3fbf2f8d407f8f32b1206' class='line'>​</p>
+
+</td></tr><tr><td><p id='temp:C:eCK6dda64d1743a4ee3b0c050d1f' class='line'>Blue</p>
+
+</td><td><p id='temp:C:eCKebbf369780c24c0b9dcb3fde3' class='line'>Normal Person</p>
+
+</td><td><p id='temp:C:eCKa87e7b00e476452ca5ba057f0' class='line'>​</p>
+
+</td></tr><tr><td><p id='temp:C:eCK5e6cbe370b0e403a9865ae9bc' class='line'>Red</p>
+
+</td><td><p id='temp:C:eCKb52cb7f04ee240a9828080662' class='line'>Banned</p>
+
+</td><td><p id='temp:C:eCK1b25864b77654cc79337917c8' class='line'>​</p>
+
+</td></tr></table>
+<h2 id='temp:C:eCK822036ed1fea414b98aca9eac'><b>Get current user's today time (By API Key)</b></h2>
+
+<h3 id='temp:C:eCK6efa57ae4e1d4a9498342e4cd'><a href="https://hackatime.hackclub.com/api/v1/users/current/statusbar/today"><code>https://hackatime.hackclub.com/api/v1/users/current/statusbar/today</code></a></h3>
+
+<p id='temp:C:eCK683c00d4d22d49c087ba2d37f' class='line'>​</p>
+
+<p id='temp:C:eCK447c97d5f02e437e99531c58a' class='line'>Returns</p>
+
+<p id='temp:C:eCKb4b9d681e4f44e59a006c661b' class='line'><code>data</code> → <code>grand_total</code> → <code>text</code> and <code>total_seconds</code></p>
+
+<pre id='temp:C:eCK42d2dd9cd76b4a32b046d962f' class='prettyprint'>{"data":{"grand_total":{"text":"Start coding to track your time","total_seconds":0}}}</pre>
+
+<h2 id='temp:C:eCK991b489f8d8c47ab910325346'>Get Another User's Time Today by Slack ID (Requires API Key)</h2>
+
+<h3 id='temp:C:eCK86a9ab7995eb4166b22d00525'><a href="https://hackatime.hackclub.com/api/v1/users/current/statusbar/today"><code>https://hackatime.hackclub.com/api/v1/users/SLACK_ID/statusbar/today</code></a></h3>
+
+<p id='temp:C:eCKdbd5aa1c459c4ce89adc4ca66' class='line'>For Example, </p>
+
+<pre id='temp:C:eCK0981263518114035a0e6b08f3' class='prettyprint'>curl -H "Authorization: Bearer API-KEY" \ https://hackatime.hackclub.com/api/hackatime/v1/users/SLACk_ID/statusbar/today</pre>
+
+<p id='temp:C:eCK1d9e41d9e3ff481d81d074549' class='line'>Returns</p>
+
+<p id='temp:C:eCK2963ffe231de4f07884cd61f8' class='line'><code>data</code> → <code>grand_total</code> → <code>text</code> and <code>total_seconds</code></p>
+
+<pre id='temp:C:eCK8016c46811b6460ebd85155e7' class='prettyprint'>{"data":{"grand_total":{"text":"Start coding to track your time","total_seconds":0}}}</pre>
+
+<h2 id='temp:C:eCK350168e4353a475285d293fd6'><b>Get current user's stats for a specific time range (By API Key)</b></h2>
+
+<pre id='temp:C:eCKc1063608a5794fcfbc7b8b82d' class='prettyprint'>    https://hackatime.hackclub.com/api/v1/users/my/stats</pre>
+
+<h3 id='temp:C:eCKc201b218bc704b3e817ad7c99'>URL Parameters</h3>
+
+<p id='temp:C:eCK25f3543be0a540b7ad4a0fbd1' class='line'><code>start_date</code> (optional, in format YYYY-MM-DD)</p>
+
+<p id='temp:C:eCK5376d31e43e74401a0e101157' class='line'><code>end_date</code> (optional, in format YYYY-MM-DD)</p>
+
+<p id='temp:C:eCK903b278a35354fa0a7f8b2577' class='line'><code>features</code> (optional, known features: <code>languages</code> and <code>projects</code>, defaults to <code>languages</code>)</p>
+
+<p id='temp:C:eCK677c317173c94a039ed1b9449' class='line'>​</p>
+
+<p id='temp:C:eCKeffa0731460946dc80728b2ba' class='line'>Example:</p>
+
+<pre id='temp:C:eCKcc80f539d4b2416580034c9cd' class='prettyprint'>https://hackatime.hackclub.com/api/v1/users/my/stats?start_time=2025-09-01&amp;end_time=2025-12-01&amp;features=projects,languages</pre>
+
+<p id='temp:C:eCKca14392856bf436291cf1e475' class='line'>​</p>
+
+<p id='temp:C:eCKcf3204879e114475b1482e9c9' class='line'>Returns</p>
+
+<pre id='temp:C:eCK0448befc086544cd8a7e28ae3' class='prettyprint'>{<br>    <i>"username"</i>: "csd4ni3l",<br>    <i>"user_id"</i>: "6910",<br>    <i>"is_coding_activity_visitble"</i>: true,<br>    <i>"is_other_usage_visible"</i>: true,<br>    <i>"status"</i>: "ok",<br>    <i>"start"</i>: "2015-09-06T15:02:12Z",<br>    <i>"end"</i>: "2025-09-06T23:59:59Z",<br>    <i>"range"</i>: "all_time",<br>    <i>"human_readable_range"</i>: "All Time",<br>    <i>"total_seconds"</i>: 594116,<br>    <i>"daily_average"</i>: 162,<br>    <i>"human_readable_total"</i>: "165h 1m 56s",<br>    <i>"human_readable_daily_average"</i>: "2m 42s",<br>    <i>"languages"</i>: [<br>        {<br>            <i>"name"</i>: "Python",<br>            <i>"total_seconds"</i>: 549945,<br>            <i>"text"</i>: "152h 45m",<br>            <i>"hours"</i>: 152,<br>            <i>"minutes"</i>: 45,<br>            <i>"percent"</i>: 92.57,<br>            <i>"digital"</i>: "152:45:45",<br>        },<br>        ...<br>    ]<br>}</pre>
+
+<h2 id='temp:C:eCK35823364dfe6465e94a21492c'>Get raw heartbeat data for the current user (By API Key)</h2>
+
+<h3 id='temp:C:eCK899958689fee4fd2bbc793f3a'><a href="https://hackatime.hackclub.com/api/v1/users/my/heartbeats"><code>https://hackatime.hackclub.com/api/v1/users/my/heartbeats</code></a></h3>
+
+<h3 id='temp:C:eCK35ea875b90ef4ce18e75796a4'>URL Parameters</h3>
+
+<p id='temp:C:eCK68f0b02676a14e64a1be67c3c' class='line'><code>limit</code> (optional, max 100): Amount of heartbeats to get</p>
+
+<p id='temp:C:eCK77578c2e5fb84faabc7179cc4' class='line'><code>start_date</code> (optional, in format YYYY-MM-DD)</p>
+
+<p id='temp:C:eCK3e6ad237856e4d7f93048b5d8' class='line'><code>end_date</code> (optional, in format YYYY-MM-DD)</p>
+
+<p id='temp:C:eCKc67f3e80d55741aaaee9b6a86' class='line'>Example:</p>
+
+<pre id='temp:C:eCKad3cd437f83247ffbccc225d4' class='prettyprint'>curl https://hackatime.hackclub.com/api/v1/users/my/stats?start_time=2025-09-01&amp;end_time=2025-12-01&amp;limit=100</pre>
+
+<h2 id='temp:C:eCKaf617572a8c245c1a0a6346f4'>Get User Project Names (By Slack ID)</h2>
+
+<p id='temp:C:eCKa47bfc2236d4415a890add7ef' class='line'><a href="https://hackatime.hackclub.com/api/v1/users/U093XFSQ344/projects">https://hackatime.hackclub.com/api/v1/users/{SLACK_ID}/projects</a></p>
+
+<p id='temp:C:eCK6833658c3a7d4ee1878b1c733' class='line'>does not require API</p>
+
+<pre id='temp:C:eCK826134e962654d039411315f9' class='prettyprint'> curl https://hackatime.hackclub.com/api/v1/users/U093XFSQ344/projects<br>{"projects":["QRAuth","points-tracker","PythonProject2","PythonProject1","ssh-web","EncryptUI","Authly","untitled4","bitstream","hackacli","PythonProject3","ToDoIt"]}</pre>
+
+<h2 id='temp:C:eCK3e6bd283775541498cfc4ce4a'>Get User Project Names (By API Key)</h2>
+
+<p id='temp:C:eCK4407dffc4b5746ed8a70954d2' class='line'><a href="https://hackatime.hackclub.com/api/v1/users/my/projects">https://hackatime.hackclub.com/api/v1/users/my/projects</a></p>
+
+<pre id='temp:C:eCKd5f26bfd4d7f4fca8f83fb474' class='prettyprint'> curl https://hackatime.hackclub.com/api/v1/users/my/projects<br>{"projects":["QRAuth","points-tracker","PythonProject2","PythonProject1","ssh-web","EncryptUI","Authly","untitled4","bitstream","hackacli","PythonProject3","ToDoIt"]}</pre>
+
+<h2 id='temp:C:eCK6cc3165dcff946a2af4ecf349'>Get User Project Details (By Slack ID)</h2>
+
+<p id='temp:C:eCK13f7477e60354daf9c6bfaa32' class='line'><a href="https://hackatime.hackclub.com/api/v1/users/U093XFSQ344/projects">https://hackatime.hackclub.com/api/v1/users/{SLACK_ID}/projects/details</a></p>
+
+<p id='temp:C:eCKfdddbe4a813b453493cf375dc' class='line'>does not require API</p>
+
+<pre id='temp:C:eCKb1ffa66f311144e3a289f5fbc' class='prettyprint'> curl https://hackatime.hackclub.com/api/v1/users/U093XFSQ344/projects/details<br> {'projects': [{'first_heartbeat': '2025-08-07T16:45:46Z',<br>               'languages': ['Bash',<br>                             'CSS',<br>                             'JSON',<br>                             'JavaScript',<br>                             'Markdown',<br>                             'Python',<br>                             'TOML',<br>                             'Text'],<br>               'last_heartbeat': '2025-08-22T07:50:22Z',<br>               'name': 'grass_touching_captcha',<br>               'repo_url': 'https://github.com/csd4ni3l/grass_touching_captcha',<br>               'total_heartbeats': 3756,<br>               'total_seconds': 78898},<br>               ...<br> }</pre>
+
+<h2 id='temp:C:eCK87041dd945404bee89f6f6791'>Get User Project Details (By API Key)</h2>
+
+<p id='temp:C:eCK956b00b17b0946d4a895fa520' class='line'>?</p>
+
+<pre id='temp:C:eCK0efd280665c64ea7bdcedea5a' class='prettyprint'> curl https://hackatime.hackclub.com/api/v1/users/my/projects/details<br> {'projects': [{'first_heartbeat': '2025-08-07T16:45:46Z',<br>               'languages': ['Bash',<br>                             'CSS',<br>                             'JSON',<br>                             'JavaScript',<br>                             'Markdown',<br>                             'Python',<br>                             'TOML',<br>                             'Text'],<br>               'last_heartbeat': '2025-08-22T07:50:22Z',<br>               'name': 'grass_touching_captcha',<br>               'repo_url': 'https://github.com/csd4ni3l/grass_touching_captcha',<br>               'total_heartbeats': 3756,<br>               'total_seconds': 78898},<br>               ...<br> }</pre>
+

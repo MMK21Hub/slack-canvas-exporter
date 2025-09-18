@@ -1,0 +1,423 @@
+{
+  "id": "F08HU1DD1AP",
+  "created": 1741965010,
+  "timestamp": 1741965010,
+  "name": "_sparkling-blahaj-heart___Resources",
+  "title": ":sparkling-blahaj-heart:  Resources",
+  "mimetype": "application/vnd.slack-docs",
+  "filetype": "quip",
+  "pretty_type": "Canvas",
+  "user": "U07BU2HS17Z",
+  "user_team": "T0266FRGM",
+  "editable": true,
+  "size": 27601,
+  "mode": "quip",
+  "is_external": false,
+  "external_type": "",
+  "is_public": true,
+  "public_url_shared": false,
+  "display_as_bot": false,
+  "username": "",
+  "url_private": "https://files.slack.com/files-pri/T0266FRGM-F08HU1DD1AP/canvas",
+  "url_private_download": "https://files.slack.com/files-pri/T0266FRGM-F08HU1DD1AP/download/canvas",
+  "permalink": "https://hackclub.slack.com/docs/T0266FRGM/F08HU1DD1AP",
+  "permalink_public": "https://slack-files.com/T0266FRGM-F08HU1DD1AP-ff61ff926d",
+  "url_static_preview": "https://hackclub.slack.com/docs/T0266FRGM/F08HU1DD1AP/mobile",
+  "quip_thread_id": "TeF9AA6vJoG",
+  "updated": 1758205726,
+  "update_notification": 1758057889,
+  "canvas_readtime": 19.831393014853,
+  "favorites": [],
+  "is_starred": false,
+  "shares": {
+    "public": {
+      "C06R5NKVCG5": [
+        {
+          "reply_users": [
+            "U07V1ND4H0Q",
+            "U08KFJ432G1",
+            "U08L7671TDG",
+            "UM1L1C38X",
+            "U07T7BUQMGF",
+            "U078PH0GBEH",
+            "U06LWHNLL3B",
+            "U04FATFRE6T",
+            "U07FCRNHS1J",
+            "U07BMNNGUN9",
+            "U054VC2KM9P",
+            "U080A3QP42C",
+            "U07958J0JJU",
+            "U05MKEZUY67",
+            "U09BCGL8Q15",
+            "U07981R1140",
+            "U0735FTMS3V",
+            "U082GTRTR5X",
+            "USLACKBOT",
+            "U0938MZG8Q6"
+          ],
+          "reply_users_count": 20,
+          "reply_count": 779,
+          "ts": "1757611611.819779",
+          "thread_ts": "1757608059.655409",
+          "latest_reply": "1757632474.358109",
+          "channel_name": "ambers-waffles",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "U07T7BUQMGF",
+          "source": "UNKNOWN",
+          "is_silent_share": false
+        }
+      ],
+      "CNMU9L92Q": [
+        {
+          "reply_users": [
+            "U07ULNFPQ4T",
+            "U023L3A4UKX"
+          ],
+          "reply_users_count": 2,
+          "reply_count": 3,
+          "ts": "1756765059.551519",
+          "thread_ts": "1756762764.569249",
+          "latest_reply": "1756765080.227449",
+          "channel_name": "confessions",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "U07ULNFPQ4T",
+          "source": "UNKNOWN",
+          "is_silent_share": false
+        },
+        {
+          "reply_users": [
+            "U07BU2HS17Z",
+            "U07EB2Y76DP",
+            "U023L3A4UKX",
+            "U08290982KU",
+            "U08F8JTRMGD",
+            "U08JDQ1HESK"
+          ],
+          "reply_users_count": 6,
+          "reply_count": 29,
+          "ts": "1756165699.950959",
+          "thread_ts": "1756159335.252569",
+          "latest_reply": "1756213523.399589",
+          "channel_name": "confessions",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "U07BU2HS17Z",
+          "source": "UNKNOWN",
+          "is_silent_share": false
+        },
+        {
+          "reply_users": [],
+          "reply_users_count": 0,
+          "reply_count": 0,
+          "ts": "1747649976.175459",
+          "channel_name": "confessions",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "U07SU9F50MT",
+          "source": "UNKNOWN",
+          "is_silent_share": false
+        },
+        {
+          "reply_users": [
+            "U0829HRSQ76",
+            "U07L45W79E1",
+            "U081C6XT885",
+            "U07DHR6J57U",
+            "U082GTRTR5X",
+            "U07LEF1PBTM"
+          ],
+          "reply_users_count": 6,
+          "reply_count": 10,
+          "ts": "1745533731.959599",
+          "thread_ts": "1745526680.277929",
+          "latest_reply": "1745533731.959599",
+          "channel_name": "confessions",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "U0829HRSQ76",
+          "source": "UNKNOWN",
+          "is_silent_share": false
+        },
+        {
+          "reply_users": [
+            "U08C6GE40GH",
+            "U07ULNFPQ4T",
+            "U023L3A4UKX"
+          ],
+          "reply_users_count": 3,
+          "reply_count": 18,
+          "ts": "1745424570.168089",
+          "thread_ts": "1745424327.487219",
+          "latest_reply": "1745425170.999529",
+          "channel_name": "confessions",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "U07ULNFPQ4T",
+          "source": "UNKNOWN",
+          "is_silent_share": false
+        },
+        {
+          "reply_users": [
+            "U089A4GS57C",
+            "U07BU2HS17Z",
+            "U023L3A4UKX"
+          ],
+          "reply_users_count": 3,
+          "reply_count": 29,
+          "ts": "1743619502.888159",
+          "thread_ts": "1743617455.829789",
+          "latest_reply": "1743620487.990569",
+          "channel_name": "confessions",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "U07BU2HS17Z",
+          "source": "UNKNOWN",
+          "is_silent_share": false
+        },
+        {
+          "reply_users": [
+            "U07BU2HS17Z",
+            "U082GTRTR5X",
+            "U023L3A4UKX"
+          ],
+          "reply_users_count": 3,
+          "reply_count": 4,
+          "ts": "1743612747.769589",
+          "thread_ts": "1743611921.599669",
+          "latest_reply": "1743612747.769589",
+          "channel_name": "confessions",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "U07BU2HS17Z",
+          "source": "UNKNOWN",
+          "is_silent_share": false
+        },
+        {
+          "reply_users": [
+            "U089A4GS57C",
+            "U023L3A4UKX",
+            "U07960MD940",
+            "U06FG6G6SNL",
+            "U07GPJ6V3UZ",
+            "U08E3UAUHFS",
+            "U078SNHLU10",
+            "U082GTRTR5X",
+            "U01D9DWGEB0",
+            "U04RA9UV3RA",
+            "U04CBLNSVH6",
+            "U082VP0QX46",
+            "U06FMCCDS1K",
+            "U066LL4JBDL"
+          ],
+          "reply_users_count": 14,
+          "reply_count": 195,
+          "ts": "1743443452.226589",
+          "thread_ts": "1743442793.667249",
+          "latest_reply": "1743475744.398489",
+          "channel_name": "confessions",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "U082GTRTR5X",
+          "source": "UNKNOWN",
+          "is_silent_share": false
+        },
+        {
+          "reply_users": [
+            "U06FG6G6SNL",
+            "U07BU2HS17Z",
+            "U023L3A4UKX"
+          ],
+          "reply_users_count": 3,
+          "reply_count": 3,
+          "ts": "1742513857.915589",
+          "thread_ts": "1742512769.189739",
+          "latest_reply": "1742514126.609459",
+          "channel_name": "confessions",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "U07BU2HS17Z",
+          "source": "UNKNOWN",
+          "is_silent_share": false
+        },
+        {
+          "reply_users": [
+            "U07BU2HS17Z",
+            "U023L3A4UKX"
+          ],
+          "reply_users_count": 2,
+          "reply_count": 9,
+          "ts": "1742163356.630919",
+          "thread_ts": "1742152112.225159",
+          "latest_reply": "1742163530.157599",
+          "channel_name": "confessions",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "U07BU2HS17Z",
+          "source": "UNKNOWN",
+          "is_silent_share": false
+        },
+        {
+          "reply_users": [
+            "U07BU2HS17Z",
+            "U06TBP41C3E"
+          ],
+          "reply_users_count": 2,
+          "reply_count": 3,
+          "ts": "1741965072.816459",
+          "latest_reply": "1741965486.924389",
+          "channel_name": "confessions",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "U07BU2HS17Z",
+          "source": "UNKNOWN",
+          "is_silent_share": false
+        },
+        {
+          "reply_users": [],
+          "reply_users_count": 0,
+          "reply_count": 0,
+          "ts": "1741965011.276089",
+          "channel_name": "confessions",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "U07BU2HS17Z",
+          "source": "CHANNEL_TAB",
+          "is_silent_share": true
+        }
+      ],
+      "C08NMTQ3CEQ": [
+        {
+          "reply_users": [],
+          "reply_users_count": 0,
+          "reply_count": 0,
+          "ts": "1752460846.738069",
+          "channel_name": "last-to-post",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "U07EB2Y76DP",
+          "source": "UNKNOWN",
+          "is_silent_share": false
+        }
+      ],
+      "C0266FRGV": [
+        {
+          "reply_users": [],
+          "reply_users_count": 0,
+          "reply_count": 0,
+          "ts": "1749572201.974459",
+          "channel_name": "lounge",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "U071V9FM6K1",
+          "source": "UNKNOWN",
+          "is_silent_share": false
+        }
+      ],
+      "C0843585SM9": [
+        {
+          "reply_users": [
+            "U07NKS9S8GZ",
+            "U08D3AY7BG8",
+            "U07EB2Y76DP"
+          ],
+          "reply_users_count": 3,
+          "reply_count": 11,
+          "ts": "1744837646.693909",
+          "thread_ts": "1744837479.262339",
+          "latest_reply": "1744839538.865389",
+          "channel_name": "ryans-obsessions",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "U07EB2Y76DP",
+          "source": "UNKNOWN",
+          "is_silent_share": false
+        }
+      ]
+    }
+  },
+  "channels": [
+    "C06R5NKVCG5",
+    "CNMU9L92Q",
+    "C08NMTQ3CEQ",
+    "C0266FRGV",
+    "C0843585SM9"
+  ],
+  "groups": [],
+  "ims": [],
+  "has_more_shares": false,
+  "access": "write",
+  "private_channels_with_file_access_count": 5,
+  "dm_mpdm_users_with_file_access": [
+    {
+      "user_id": "U07BU2HS17Z",
+      "access": "write"
+    },
+    {
+      "user_id": "U0926UASBJ7",
+      "access": "write"
+    },
+    {
+      "user_id": "U079YUX7220",
+      "access": "write"
+    },
+    {
+      "user_id": "U08TV49FS04",
+      "access": "write"
+    },
+    {
+      "user_id": "U07FXPUDYDC",
+      "access": "write"
+    },
+    {
+      "user_id": "U04KEK4TS72",
+      "access": "write"
+    }
+  ],
+  "teams_shared_with": [],
+  "is_restricted_sharing_enabled": false,
+  "has_rich_preview": false,
+  "file_access": "visible",
+  "org_or_workspace_access": "none",
+  "title_blocks": [
+    {
+      "type": "rich_text",
+      "block_id": "+2zNv",
+      "elements": [
+        {
+          "type": "rich_text_section",
+          "elements": [
+            {
+              "type": "emoji",
+              "name": "sparkling-blahaj-heart"
+            },
+            {
+              "type": "text",
+              "text": "  Resources"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "canvas_creator_id": "U07BU2HS17Z",
+  "team_pref_version_history_enabled": true,
+  "canvas_printing_enabled": true,
+  "is_ai_suggested": false,
+  "editors": [
+    "U07BU2HS17Z",
+    "U08J9R1TUT1",
+    "U07T7BUQMGF",
+    "U07GSGF3Y1L",
+    "U08UWCB8JJY",
+    "U08K0FDPCCB",
+    "U08PX9YEYNQ",
+    "U08CHPFKUJ0",
+    "U07G0C6JZME",
+    "U0928RRCJ9F"
+  ],
+  "edit_timestamp": 1758057899,
+  "show_badge": true,
+  "comments_count": 0
+}

@@ -1,0 +1,96 @@
+{
+  "id": "F09DWSRK1V4",
+  "created": 1757170054,
+  "timestamp": 1757170054,
+  "name": "Workings_of_Hackatime",
+  "title": "Workings of Hackatime",
+  "mimetype": "application/vnd.slack-docs",
+  "filetype": "quip",
+  "pretty_type": "Canvas",
+  "user": "U093XFSQ344",
+  "user_team": "T0266FRGM",
+  "editable": true,
+  "size": 71,
+  "mode": "quip",
+  "is_external": false,
+  "external_type": "",
+  "is_public": true,
+  "public_url_shared": false,
+  "display_as_bot": false,
+  "username": "",
+  "url_private": "https://files.slack.com/files-pri/T0266FRGM-F09DWSRK1V4/canvas",
+  "url_private_download": "https://files.slack.com/files-pri/T0266FRGM-F09DWSRK1V4/download/canvas",
+  "permalink": "https://hackclub.slack.com/docs/T0266FRGM/F09DWSRK1V4",
+  "permalink_public": "https://slack-files.com/T0266FRGM-F09DWSRK1V4-745c66743b",
+  "url_static_preview": "https://hackclub.slack.com/docs/T0266FRGM/F09DWSRK1V4/mobile",
+  "quip_thread_id": "OJB9AAE4I5P",
+  "updated": 1757913789,
+  "update_notification": 1757170114,
+  "canvas_readtime": 0.020875150541951,
+  "favorites": [],
+  "is_starred": false,
+  "shares": {
+    "public": {
+      "C09DR3WJX2N": [
+        {
+          "reply_users": [],
+          "reply_users_count": 0,
+          "reply_count": 0,
+          "ts": "1757170055.706049",
+          "channel_name": "hackatime-reversing",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "U093XFSQ344",
+          "source": "CHANNEL_TAB",
+          "is_silent_share": true
+        }
+      ]
+    }
+  },
+  "channels": [
+    "C09DR3WJX2N"
+  ],
+  "groups": [],
+  "ims": [],
+  "has_more_shares": false,
+  "access": "write",
+  "private_channels_with_file_access_count": 0,
+  "dm_mpdm_users_with_file_access": [
+    {
+      "user_id": "U093XFSQ344",
+      "access": "write"
+    }
+  ],
+  "teams_shared_with": [],
+  "is_restricted_sharing_enabled": false,
+  "has_rich_preview": false,
+  "file_access": "visible",
+  "org_or_workspace_access": "none",
+  "title_blocks": [
+    {
+      "type": "rich_text",
+      "block_id": "cvk2L",
+      "elements": [
+        {
+          "type": "rich_text_section",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Workings\u00a0of\u00a0Hackatime"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "canvas_creator_id": "U093XFSQ344",
+  "team_pref_version_history_enabled": true,
+  "canvas_printing_enabled": true,
+  "is_ai_suggested": false,
+  "editors": [
+    "U093XFSQ344"
+  ],
+  "edit_timestamp": 1757170118,
+  "show_badge": true,
+  "comments_count": 0
+}

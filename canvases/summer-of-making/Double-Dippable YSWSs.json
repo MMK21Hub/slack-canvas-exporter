@@ -1,0 +1,507 @@
+{
+  "id": "F095TDGGAD9",
+  "created": 1752615170,
+  "timestamp": 1752615170,
+  "name": "Double_Dippable_YSWS_",
+  "title": "Double Dippable YSWS'",
+  "mimetype": "application/vnd.slack-docs",
+  "filetype": "quip",
+  "pretty_type": "Canvas",
+  "user": "U084D1T5ZV0",
+  "user_team": "T0266FRGM",
+  "editable": true,
+  "size": 4632,
+  "mode": "quip",
+  "is_external": false,
+  "external_type": "",
+  "is_public": true,
+  "public_url_shared": false,
+  "display_as_bot": false,
+  "username": "",
+  "url_private": "https://files.slack.com/files-pri/T0266FRGM-F095TDGGAD9/canvas",
+  "url_private_download": "https://files.slack.com/files-pri/T0266FRGM-F095TDGGAD9/download/canvas",
+  "permalink": "https://hackclub.slack.com/docs/T0266FRGM/F095TDGGAD9",
+  "permalink_public": "https://slack-files.com/T0266FRGM-F095TDGGAD9-e82ebc9581",
+  "url_static_preview": "https://hackclub.slack.com/docs/T0266FRGM/F095TDGGAD9/mobile",
+  "quip_thread_id": "LJY9AA46lyO",
+  "updated": 1758204049,
+  "update_notification": 1758196506,
+  "canvas_readtime": 2.3613006824568,
+  "favorites": [],
+  "is_starred": false,
+  "shares": {
+    "public": {
+      "C090JKDJYN8": [
+        {
+          "reply_users": [
+            "U08UTQE1VQA",
+            "U078F3Q2007",
+            "U09AAQ8FLTW",
+            "U091U38E20N"
+          ],
+          "reply_users_count": 4,
+          "reply_count": 5,
+          "ts": "1757167040.535039",
+          "thread_ts": "1757167012.459299",
+          "latest_reply": "1757169269.088109",
+          "channel_name": "summer-of-making-help",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "U091U38E20N",
+          "source": "UNKNOWN",
+          "is_silent_share": false
+        },
+        {
+          "reply_users": [
+            "U08UTQE1VQA",
+            "U07B27ZHEJU",
+            "U07BWS2LPE2",
+            "U097L0VNZ3K"
+          ],
+          "reply_users_count": 4,
+          "reply_count": 6,
+          "ts": "1756531173.114649",
+          "thread_ts": "1756530409.872439",
+          "latest_reply": "1756536314.114769",
+          "channel_name": "summer-of-making-help",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "U097L0VNZ3K",
+          "source": "UNKNOWN",
+          "is_silent_share": false
+        },
+        {
+          "reply_users": [
+            "U08UTQE1VQA",
+            "U078WRWQPGF",
+            "U097F2LQ8CV"
+          ],
+          "reply_users_count": 3,
+          "reply_count": 5,
+          "ts": "1754418751.338679",
+          "thread_ts": "1754418653.137149",
+          "latest_reply": "1754421152.205299",
+          "channel_name": "summer-of-making-help",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "U078WRWQPGF",
+          "source": "UNKNOWN",
+          "is_silent_share": false
+        },
+        {
+          "reply_users": [
+            "U094NTBR1S5",
+            "U08UTQE1VQA",
+            "U07B27ZHEJU",
+            "U095RD2NX8F"
+          ],
+          "reply_users_count": 4,
+          "reply_count": 8,
+          "ts": "1754250204.320149",
+          "thread_ts": "1754249806.227859",
+          "latest_reply": "1754250204.320149",
+          "channel_name": "summer-of-making-help",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "U094NTBR1S5",
+          "source": "UNKNOWN",
+          "is_silent_share": false
+        },
+        {
+          "reply_users": [
+            "U08UTQE1VQA",
+            "U07B27ZHEJU",
+            "U0936KAETQD",
+            "U094Q2KGBV3"
+          ],
+          "reply_users_count": 4,
+          "reply_count": 7,
+          "ts": "1753693488.476269",
+          "thread_ts": "1753692652.227199",
+          "latest_reply": "1754119253.462239",
+          "channel_name": "summer-of-making-help",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "U0936KAETQD",
+          "source": "UNKNOWN",
+          "is_silent_share": false
+        },
+        {
+          "reply_users": [
+            "U08UTQE1VQA",
+            "U082KMLM7DW",
+            "U091J6W8V9C"
+          ],
+          "reply_users_count": 3,
+          "reply_count": 6,
+          "ts": "1753594467.859619",
+          "thread_ts": "1753593385.489329",
+          "latest_reply": "1753817285.089459",
+          "channel_name": "summer-of-making-help",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "U082KMLM7DW",
+          "source": "UNKNOWN",
+          "is_silent_share": false
+        },
+        {
+          "reply_users": [
+            "U08UTQE1VQA",
+            "U0794TACKMG",
+            "U092CSW4FGQ",
+            "U091HKKKJRH",
+            "U078WRWQPGF"
+          ],
+          "reply_users_count": 5,
+          "reply_count": 14,
+          "ts": "1753438415.059979",
+          "thread_ts": "1753438211.921329",
+          "latest_reply": "1753438517.575139",
+          "channel_name": "summer-of-making-help",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "U092CSW4FGQ",
+          "source": "UNKNOWN",
+          "is_silent_share": false
+        }
+      ],
+      "C09AAQNDSP8": [
+        {
+          "reply_users": [
+            "U07BN55GN3D",
+            "U0929F6RWL9",
+            "U08NXJL86KT",
+            "U09AJASACUX",
+            "U09DBKJ4DED",
+            "U093T9H2431"
+          ],
+          "reply_users_count": 6,
+          "reply_count": 29,
+          "ts": "1757166937.445389",
+          "thread_ts": "1757166492.335439",
+          "latest_reply": "1757176049.101009",
+          "channel_name": "siege-help",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "U093T9H2431",
+          "source": "UNKNOWN",
+          "is_silent_share": false
+        }
+      ],
+      "C015M4L9AHW": [
+        {
+          "reply_users": [
+            "U08D3AY7BG8",
+            "U0868KBEVFE"
+          ],
+          "reply_users_count": 2,
+          "reply_count": 7,
+          "ts": "1755552096.178879",
+          "thread_ts": "1755551850.117459",
+          "latest_reply": "1755552096.178879",
+          "channel_name": "summer-of-making",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "U08D3AY7BG8",
+          "source": "UNKNOWN",
+          "is_silent_share": false
+        },
+        {
+          "reply_users": [
+            "U07UK4S94KC",
+            "U04JG7VFP6J"
+          ],
+          "reply_users_count": 2,
+          "reply_count": 13,
+          "ts": "1755257563.781229",
+          "thread_ts": "1755257109.156249",
+          "latest_reply": "1755257959.763279",
+          "channel_name": "summer-of-making",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "U04JG7VFP6J",
+          "source": "UNKNOWN",
+          "is_silent_share": false
+        },
+        {
+          "reply_users": [
+            "U07DG1B3VHP",
+            "U07A0D5K3T2"
+          ],
+          "reply_users_count": 2,
+          "reply_count": 2,
+          "ts": "1754861372.253979",
+          "thread_ts": "1754861361.505849",
+          "latest_reply": "1754861391.107479",
+          "channel_name": "summer-of-making",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "U07A0D5K3T2",
+          "source": "UNKNOWN",
+          "is_silent_share": false
+        },
+        {
+          "reply_users": [
+            "U07FDD163FV",
+            "U092FMXURQV"
+          ],
+          "reply_users_count": 2,
+          "reply_count": 1,
+          "ts": "1754100118.707979",
+          "latest_reply": "1754100413.512289",
+          "channel_name": "summer-of-making",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "U092FMXURQV",
+          "source": "UNKNOWN",
+          "is_silent_share": false
+        },
+        {
+          "reply_users": [],
+          "reply_users_count": 0,
+          "reply_count": 0,
+          "ts": "1753476149.600179",
+          "channel_name": "summer-of-making",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "U07A0D5K3T2",
+          "source": "UNKNOWN",
+          "is_silent_share": false
+        },
+        {
+          "reply_users": [
+            "U04JG7VFP6J",
+            "U08N2EW704R"
+          ],
+          "reply_users_count": 2,
+          "reply_count": 5,
+          "ts": "1752905599.296029",
+          "thread_ts": "1752905530.550899",
+          "latest_reply": "1752909640.829399",
+          "channel_name": "summer-of-making",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "U08N2EW704R",
+          "source": "UNKNOWN",
+          "is_silent_share": false
+        },
+        {
+          "reply_users": [],
+          "reply_users_count": 0,
+          "reply_count": 0,
+          "ts": "1752813809.468499",
+          "channel_name": "summer-of-making",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "U092FMXURQV",
+          "source": "UNKNOWN",
+          "is_silent_share": false
+        },
+        {
+          "reply_users": [],
+          "reply_users_count": 0,
+          "reply_count": 0,
+          "ts": "1752615203.541559",
+          "channel_name": "summer-of-making",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "U084D1T5ZV0",
+          "source": "UNKNOWN",
+          "is_silent_share": false
+        },
+        {
+          "reply_users": [],
+          "reply_users_count": 0,
+          "reply_count": 0,
+          "ts": "1752615171.208369",
+          "channel_name": "summer-of-making",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "U084D1T5ZV0",
+          "source": "CHANNEL_TAB",
+          "is_silent_share": true
+        }
+      ],
+      "C093ALFAW8K": [
+        {
+          "reply_users": [
+            "U07FDD163FV",
+            "U097F2LQ8CV"
+          ],
+          "reply_users_count": 2,
+          "reply_count": 3,
+          "ts": "1754484154.653749",
+          "thread_ts": "1754459514.888039",
+          "latest_reply": "1754484154.653749",
+          "channel_name": "rewind",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "U07FDD163FV",
+          "source": "UNKNOWN",
+          "is_silent_share": false
+        }
+      ],
+      "C08F58MT3GV": [
+        {
+          "reply_users": [
+            "U05D9BJD4UC",
+            "U084D1T5ZV0",
+            "U07FDD163FV"
+          ],
+          "reply_users_count": 3,
+          "reply_count": 10,
+          "ts": "1754240130.735829",
+          "thread_ts": "1754237647.749209",
+          "latest_reply": "1754242600.435699",
+          "channel_name": "terminal-craft",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "U07FDD163FV",
+          "source": "UNKNOWN",
+          "is_silent_share": false
+        }
+      ],
+      "C0931T5SEH4": [
+        {
+          "reply_users": [
+            "U08AFJFPRJ7",
+            "U06UYA4AH6F",
+            "U093H5LJHGC",
+            "U07NWEG5PQV",
+            "UM1L1C38X"
+          ],
+          "reply_users_count": 5,
+          "reply_count": 23,
+          "ts": "1753971650.532189",
+          "thread_ts": "1753971039.967829",
+          "latest_reply": "1754025720.447509",
+          "channel_name": "jumpstart",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "U08AFJFPRJ7",
+          "source": "UNKNOWN",
+          "is_silent_share": false
+        }
+      ],
+      "C0C78SG9L": [
+        {
+          "reply_users": [
+            "U07UK4S94KC",
+            "U07G0C6JZME",
+            "U04HJGA76H2",
+            "U07FD57JN67"
+          ],
+          "reply_users_count": 4,
+          "reply_count": 9,
+          "ts": "1753763364.088069",
+          "thread_ts": "1753763223.859969",
+          "latest_reply": "1753764285.973099",
+          "channel_name": "hq",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "U04HJGA76H2",
+          "source": "UNKNOWN",
+          "is_silent_share": false
+        }
+      ],
+      "C092HR1LG20": [
+        {
+          "reply_users": [
+            "U091GJGTHGB",
+            "U094NTBR1S5",
+            "U07LKN2HXT3"
+          ],
+          "reply_users_count": 3,
+          "reply_count": 3,
+          "ts": "1752619609.977499",
+          "thread_ts": "1752619494.961129",
+          "latest_reply": "1752619681.229079",
+          "channel_name": "hackmate",
+          "team_id": "T0266FRGM",
+          "access": "read",
+          "share_user_id": "U094NTBR1S5",
+          "source": "UNKNOWN",
+          "is_silent_share": false
+        }
+      ]
+    }
+  },
+  "channels": [
+    "C090JKDJYN8",
+    "C09AAQNDSP8",
+    "C015M4L9AHW",
+    "C093ALFAW8K",
+    "C08F58MT3GV",
+    "C0931T5SEH4",
+    "C0C78SG9L",
+    "C092HR1LG20"
+  ],
+  "groups": [],
+  "ims": [],
+  "has_more_shares": false,
+  "access": "write",
+  "private_channels_with_file_access_count": 0,
+  "dm_mpdm_users_with_file_access": [
+    {
+      "user_id": "U084D1T5ZV0",
+      "access": "write"
+    },
+    {
+      "user_id": "U081C6XT885",
+      "access": "write"
+    },
+    {
+      "user_id": "U07GNE5J7C2",
+      "access": "write"
+    },
+    {
+      "user_id": "U0999P521PB",
+      "access": "write"
+    },
+    {
+      "user_id": "U08CDHJCK1R",
+      "access": "read"
+    }
+  ],
+  "teams_shared_with": [],
+  "is_restricted_sharing_enabled": false,
+  "has_rich_preview": false,
+  "file_access": "visible",
+  "org_or_workspace_access": "none",
+  "title_blocks": [
+    {
+      "type": "rich_text",
+      "block_id": "kC3o0",
+      "elements": [
+        {
+          "type": "rich_text_section",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Double\u00a0Dippable\u00a0YSWS'"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "canvas_creator_id": "U084D1T5ZV0",
+  "team_pref_version_history_enabled": true,
+  "canvas_printing_enabled": true,
+  "is_ai_suggested": false,
+  "editors": [
+    "U08NXJL86KT",
+    "U09736L44JZ",
+    "U091X7LFJS0",
+    "U09B8FXUS78",
+    "U09640T3JGY",
+    "U080A3QP42C",
+    "U0785D5VDEK",
+    "U091R9R4MTL",
+    "U094BKXCG92",
+    "U081HJSMURJ"
+  ],
+  "edit_timestamp": 1758197082,
+  "show_badge": true,
+  "comments_count": 0
+}

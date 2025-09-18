@@ -1,0 +1,96 @@
+{
+  "id": "F09E6RERGTT",
+  "created": 1757090012,
+  "timestamp": 1757090012,
+  "name": "Questions_and_Answers",
+  "title": "Questions and Answers",
+  "mimetype": "application/vnd.slack-docs",
+  "filetype": "quip",
+  "pretty_type": "Canvas",
+  "user": "U06T30DNB3L",
+  "user_team": "T0266FRGM",
+  "editable": true,
+  "size": 2527,
+  "mode": "quip",
+  "is_external": false,
+  "external_type": "",
+  "is_public": true,
+  "public_url_shared": false,
+  "display_as_bot": false,
+  "username": "",
+  "url_private": "https://files.slack.com/files-pri/T0266FRGM-F09E6RERGTT/canvas",
+  "url_private_download": "https://files.slack.com/files-pri/T0266FRGM-F09E6RERGTT/download/canvas",
+  "permalink": "https://hackclub.slack.com/docs/T0266FRGM/F09E6RERGTT",
+  "permalink_public": "https://slack-files.com/T0266FRGM-F09E6RERGTT-dd22281208",
+  "url_static_preview": "https://hackclub.slack.com/docs/T0266FRGM/F09E6RERGTT/mobile",
+  "quip_thread_id": "SLd9AA9pLLP",
+  "updated": 1758127352,
+  "update_notification": 1758119823,
+  "canvas_readtime": 1.9293456443196,
+  "favorites": [],
+  "is_starred": false,
+  "shares": {
+    "public": {
+      "C09DQ3EB40L": [
+        {
+          "reply_users": [],
+          "reply_users_count": 0,
+          "reply_count": 0,
+          "ts": "1757090012.696829",
+          "channel_name": "summer-of-making-grand-survey-expedition",
+          "team_id": "T0266FRGM",
+          "access": "read",
+          "share_user_id": "U06T30DNB3L",
+          "source": "CHANNEL_TAB",
+          "is_silent_share": true
+        }
+      ]
+    }
+  },
+  "channels": [
+    "C09DQ3EB40L"
+  ],
+  "groups": [],
+  "ims": [],
+  "has_more_shares": false,
+  "access": "read",
+  "private_channels_with_file_access_count": 0,
+  "dm_mpdm_users_with_file_access": [
+    {
+      "user_id": "U06T30DNB3L",
+      "access": "write"
+    }
+  ],
+  "teams_shared_with": [],
+  "is_restricted_sharing_enabled": true,
+  "has_rich_preview": false,
+  "file_access": "visible",
+  "org_or_workspace_access": "none",
+  "title_blocks": [
+    {
+      "type": "rich_text",
+      "block_id": "4v+T5",
+      "elements": [
+        {
+          "type": "rich_text_section",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Questions and Answers"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "canvas_creator_id": "U06T30DNB3L",
+  "team_pref_version_history_enabled": true,
+  "canvas_printing_enabled": true,
+  "is_ai_suggested": false,
+  "editors": [
+    "U06T30DNB3L"
+  ],
+  "edit_timestamp": 1758119947,
+  "show_badge": true,
+  "comments_count": 0
+}

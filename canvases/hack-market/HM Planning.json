@@ -1,0 +1,114 @@
+{
+  "id": "F08BGA54BJT",
+  "created": 1738767883,
+  "timestamp": 1738767883,
+  "name": "HM__Planning",
+  "title": "HM\u00a0Planning",
+  "mimetype": "application/vnd.slack-docs",
+  "filetype": "quip",
+  "pretty_type": "Canvas",
+  "user": "U07UV4R2G4T",
+  "user_team": "T0266FRGM",
+  "editable": true,
+  "size": 1326,
+  "mode": "quip",
+  "is_external": false,
+  "external_type": "",
+  "is_public": true,
+  "public_url_shared": false,
+  "display_as_bot": false,
+  "username": "",
+  "url_private": "https://files.slack.com/files-pri/T0266FRGM-F08BGA54BJT/canvas",
+  "url_private_download": "https://files.slack.com/files-pri/T0266FRGM-F08BGA54BJT/download/canvas",
+  "permalink": "https://hackclub.slack.com/docs/T0266FRGM/F08BGA54BJT",
+  "permalink_public": "https://slack-files.com/T0266FRGM-F08BGA54BJT-b2b06b9a17",
+  "url_static_preview": "https://hackclub.slack.com/docs/T0266FRGM/F08BGA54BJT/mobile",
+  "quip_thread_id": "UJB9AAcAFlP",
+  "updated": 1753679482,
+  "update_notification": 1738784807,
+  "canvas_readtime": 0.66639903653151,
+  "favorites": [],
+  "is_starred": false,
+  "shares": {
+    "public": {
+      "C089VQAULJ0": [
+        {
+          "reply_users": [
+            "U062UG485EE",
+            "U081X26F6EA"
+          ],
+          "reply_users_count": 2,
+          "reply_count": 4,
+          "ts": "1740225086.822139",
+          "latest_reply": "1740677603.741409",
+          "channel_name": "hack-market",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "U081X26F6EA",
+          "source": "UNKNOWN",
+          "is_silent_share": false
+        },
+        {
+          "reply_users": [],
+          "reply_users_count": 0,
+          "reply_count": 0,
+          "ts": "1738767883.932579",
+          "channel_name": "hack-market",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "U07UV4R2G4T",
+          "source": "CHANNEL_TAB",
+          "is_silent_share": true
+        }
+      ]
+    }
+  },
+  "channels": [
+    "C089VQAULJ0"
+  ],
+  "groups": [],
+  "ims": [],
+  "has_more_shares": false,
+  "access": "write",
+  "private_channels_with_file_access_count": 0,
+  "dm_mpdm_users_with_file_access": [
+    {
+      "user_id": "U07UV4R2G4T",
+      "access": "write"
+    }
+  ],
+  "teams_shared_with": [],
+  "is_restricted_sharing_enabled": false,
+  "has_rich_preview": false,
+  "file_access": "visible",
+  "org_or_workspace_access": "none",
+  "title_blocks": [
+    {
+      "type": "rich_text",
+      "block_id": "/gXXs",
+      "elements": [
+        {
+          "type": "rich_text_section",
+          "elements": [
+            {
+              "type": "text",
+              "text": "HM\u00a0Planning"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "canvas_creator_id": "U07UV4R2G4T",
+  "team_pref_version_history_enabled": true,
+  "canvas_printing_enabled": true,
+  "is_ai_suggested": false,
+  "editors": [
+    "U078PH0GBEH",
+    "U081X26F6EA",
+    "U07UV4R2G4T"
+  ],
+  "edit_timestamp": 1745189569,
+  "show_badge": false,
+  "comments_count": 0
+}

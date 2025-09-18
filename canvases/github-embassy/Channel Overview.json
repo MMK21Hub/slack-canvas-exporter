@@ -1,0 +1,121 @@
+{
+  "id": "F07TR9ZMKC6",
+  "created": 1730196444,
+  "timestamp": 1730196444,
+  "name": "Channel_Overview",
+  "title": "Channel Overview",
+  "mimetype": "application/vnd.slack-docs",
+  "filetype": "quip",
+  "pretty_type": "Canvas",
+  "user": "UUEK9947L",
+  "user_team": "E01DLHH5JM6",
+  "editable": true,
+  "size": 3266,
+  "mode": "quip",
+  "is_external": false,
+  "external_type": "",
+  "is_public": true,
+  "public_url_shared": false,
+  "display_as_bot": false,
+  "username": "",
+  "url_private": "https://files.slack.com/files-pri/T01DLHH5JM6-F07TR9ZMKC6/canvas",
+  "url_private_download": "https://files.slack.com/files-pri/T01DLHH5JM6-F07TR9ZMKC6/download/canvas",
+  "permalink": "https://github-grid.enterprise.slack.com/docs/T0CA8C346/F07TR9ZMKC6",
+  "permalink_public": "https://slack-files.com/T01DLHH5JM6-F07TR9ZMKC6-2061c0d402",
+  "url_static_preview": "https://github-grid.enterprise.slack.com/docs/T0CA8C346/F07TR9ZMKC6/mobile",
+  "quip_thread_id": "fPW9AA5r4vA",
+  "updated": 1758191784,
+  "update_notification": 1755010946,
+  "canvas_readtime": 2.0875150541951,
+  "source_team": "E01DLHH5JM6",
+  "favorites": [],
+  "is_starred": false,
+  "shares": {
+    "public": {
+      "C01KCAHJZ9R": [
+        {
+          "reply_users": [],
+          "reply_users_count": 0,
+          "reply_count": 0,
+          "ts": "1750933073.660479",
+          "channel_name": "github-embassy",
+          "team_id": "T0CA8C346",
+          "access": "write",
+          "share_user_id": "UUEK9947L",
+          "source": "CHANNEL_TAB",
+          "is_silent_share": true
+        },
+        {
+          "reply_users": [],
+          "reply_users_count": 0,
+          "reply_count": 0,
+          "ts": "0000000000.000000",
+          "date_last_shared": 1730196444,
+          "channel_name": "github-embassy",
+          "team_id": "T0CA8C346",
+          "access": "write",
+          "share_user_id": "USLACKBOT",
+          "source": "UNKNOWN",
+          "is_silent_share": false
+        }
+      ]
+    }
+  },
+  "channels": [
+    "C01KCAHJZ9R"
+  ],
+  "groups": [],
+  "ims": [],
+  "has_more_shares": false,
+  "access": "write",
+  "private_channels_with_file_access_count": 0,
+  "dm_mpdm_users_with_file_access": [
+    {
+      "user_id": "UUEK9947L",
+      "access": "write"
+    }
+  ],
+  "teams_shared_with": [
+    "E01DLHH5JM6",
+    "T0266FRGM"
+  ],
+  "is_restricted_sharing_enabled": true,
+  "has_rich_preview": false,
+  "file_access": "visible",
+  "org_or_workspace_access": "none",
+  "title_blocks": [
+    {
+      "type": "rich_text",
+      "block_id": "iUq8v",
+      "elements": [
+        {
+          "type": "rich_text_section",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Channel Overview"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "canvas_creator_id": "U05MKEZUY67",
+  "team_pref_version_history_enabled": true,
+  "canvas_printing_enabled": true,
+  "source_canvas_id": "F07PPCC3K40",
+  "is_ai_suggested": false,
+  "editors": [
+    "U08R4Q9H8EB",
+    "U07E6TW9DL0",
+    "U04J5APLPJ9",
+    "U075UE9K9B5",
+    "U0828CN2BL4",
+    "U094NTBR1S5",
+    "U0929F6RWL9",
+    "UQH77H0V9"
+  ],
+  "edit_timestamp": 1756104206,
+  "show_badge": false,
+  "comments_count": 0
+}

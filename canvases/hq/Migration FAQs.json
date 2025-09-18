@@ -1,0 +1,157 @@
+{
+  "id": "F09G8G3GB6V",
+  "created": 1758171577,
+  "timestamp": 1758171577,
+  "name": "Q_Migration_FAQs",
+  "title": "Q Migration FAQs",
+  "mimetype": "application/vnd.slack-docs",
+  "filetype": "quip",
+  "pretty_type": "Canvas",
+  "user": "U04FRCW7E4A",
+  "user_team": "T0266FRGM",
+  "editable": true,
+  "size": 2601,
+  "mode": "quip",
+  "is_external": false,
+  "external_type": "",
+  "is_public": true,
+  "public_url_shared": false,
+  "display_as_bot": false,
+  "username": "",
+  "url_private": "https://files.slack.com/files-pri/T0266FRGM-F09G8G3GB6V/canvas",
+  "url_private_download": "https://files.slack.com/files-pri/T0266FRGM-F09G8G3GB6V/download/canvas",
+  "permalink": "https://hackclub.slack.com/docs/T0266FRGM/F09G8G3GB6V",
+  "permalink_public": "https://slack-files.com/T0266FRGM-F09G8G3GB6V-9521296f08",
+  "url_static_preview": "https://hackclub.slack.com/docs/T0266FRGM/F09G8G3GB6V/mobile",
+  "quip_thread_id": "NBW9AArZ8bA",
+  "updated": 1758207983,
+  "update_notification": 1758207983,
+  "canvas_readtime": 1.5624247290245,
+  "favorites": [],
+  "is_starred": false,
+  "shares": {
+    "public": {
+      "C09FTE1TTJA": [
+        {
+          "reply_users": [],
+          "reply_users_count": 0,
+          "reply_count": 0,
+          "ts": "1758195499.341489",
+          "channel_name": "goodbye-slack",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "U08CJCZ2Z9S",
+          "source": "UNKNOWN",
+          "is_silent_share": false
+        }
+      ],
+      "C0C78SG9L": [
+        {
+          "reply_users": [
+            "U04PUUE7XR6",
+            "U09B8FXUS78"
+          ],
+          "reply_users_count": 2,
+          "reply_count": 2,
+          "ts": "1758194655.223939",
+          "thread_ts": "1758193197.714609",
+          "latest_reply": "1758195588.878429",
+          "channel_name": "hq",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "U09B8FXUS78",
+          "source": "UNKNOWN",
+          "is_silent_share": false
+        },
+        {
+          "reply_users": [],
+          "reply_users_count": 0,
+          "reply_count": 0,
+          "ts": "1758173521.095569",
+          "channel_name": "hq",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "U04FRCW7E4A",
+          "source": "UNKNOWN",
+          "is_silent_share": false
+        },
+        {
+          "reply_users": [],
+          "reply_users_count": 0,
+          "reply_count": 0,
+          "ts": "1758171578.294569",
+          "channel_name": "hq",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "U04FRCW7E4A",
+          "source": "CHANNEL_TAB",
+          "is_silent_share": true
+        }
+      ]
+    }
+  },
+  "channels": [
+    "C09FTE1TTJA",
+    "C0C78SG9L"
+  ],
+  "groups": [],
+  "ims": [],
+  "has_more_shares": false,
+  "access": "write",
+  "private_channels_with_file_access_count": 1,
+  "dm_mpdm_users_with_file_access": [
+    {
+      "user_id": "U04FRCW7E4A",
+      "access": "write"
+    },
+    {
+      "user_id": "U08DDHGPBCM",
+      "access": "write"
+    },
+    {
+      "user_id": "U093CHSMD0T",
+      "access": "write"
+    }
+  ],
+  "teams_shared_with": [],
+  "is_restricted_sharing_enabled": false,
+  "has_rich_preview": false,
+  "file_access": "visible",
+  "org_or_workspace_access": "none",
+  "title_blocks": [
+    {
+      "type": "rich_text",
+      "block_id": "B0Y9i",
+      "elements": [
+        {
+          "type": "rich_text_section",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Q Migration FAQs"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "canvas_creator_id": "U04FRCW7E4A",
+  "team_pref_version_history_enabled": true,
+  "canvas_printing_enabled": true,
+  "is_ai_suggested": false,
+  "editors": [
+    "U093T2F9UKW",
+    "U09E73L4H51",
+    "U08BS4B9SVC",
+    "U08S7TGEFMF",
+    "U091R9Y6HFE",
+    "U07RQNENPC0",
+    "U09759W9GDS",
+    "U081ZC7ES30",
+    "U090LAT6QKB",
+    "U09DL60UCEQ"
+  ],
+  "edit_timestamp": 1758205889,
+  "show_badge": true,
+  "comments_count": 0
+}

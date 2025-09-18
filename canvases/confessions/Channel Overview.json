@@ -1,0 +1,117 @@
+{
+  "id": "F05J42U4YKG",
+  "created": 1690075591,
+  "timestamp": 1690075591,
+  "name": "Channel_README___Confessions_Thread_Archive_Directory",
+  "title": "Channel README / Confessions Thread Archive Directory",
+  "mimetype": "application/vnd.slack-docs",
+  "filetype": "quip",
+  "pretty_type": "Canvas",
+  "user": "U03G176GL23",
+  "user_team": "T0266FRGM",
+  "editable": true,
+  "size": 868,
+  "mode": "quip",
+  "is_external": false,
+  "external_type": "",
+  "is_public": true,
+  "public_url_shared": false,
+  "display_as_bot": false,
+  "username": "",
+  "url_private": "https://files.slack.com/files-pri/T0266FRGM-F05J42U4YKG/canvas",
+  "url_private_download": "https://files.slack.com/files-pri/T0266FRGM-F05J42U4YKG/download/canvas",
+  "permalink": "https://hackclub.slack.com/docs/T0266FRGM/F05J42U4YKG",
+  "permalink_public": "https://slack-files.com/T0266FRGM-F05J42U4YKG-4e9e43f2d7",
+  "url_static_preview": "https://hackclub.slack.com/docs/T0266FRGM/F05J42U4YKG/mobile",
+  "quip_thread_id": "DVa9AAJ9phE",
+  "updated": 1758076279,
+  "update_notification": 1756350986,
+  "canvas_readtime": 0.69530309112806,
+  "favorites": [],
+  "is_starred": false,
+  "shares": {
+    "public": {
+      "CNMU9L92Q": [
+        {
+          "reply_users": [],
+          "reply_users_count": 0,
+          "reply_count": 0,
+          "ts": "1747086084.579839",
+          "channel_name": "confessions",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "U03G176GL23",
+          "source": "CHANNEL_TAB",
+          "is_silent_share": true
+        },
+        {
+          "reply_users": [],
+          "reply_users_count": 0,
+          "reply_count": 0,
+          "ts": "0000000000.000000",
+          "date_last_shared": 1690075591,
+          "channel_name": "confessions",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "USLACKBOT",
+          "source": "UNKNOWN",
+          "is_silent_share": false
+        }
+      ]
+    }
+  },
+  "channels": [
+    "CNMU9L92Q"
+  ],
+  "groups": [],
+  "ims": [],
+  "has_more_shares": false,
+  "access": "write",
+  "private_channels_with_file_access_count": 0,
+  "dm_mpdm_users_with_file_access": [
+    {
+      "user_id": "U03G176GL23",
+      "access": "write"
+    }
+  ],
+  "teams_shared_with": [],
+  "is_restricted_sharing_enabled": true,
+  "has_rich_preview": false,
+  "file_access": "visible",
+  "org_or_workspace_access": "none",
+  "title_blocks": [
+    {
+      "type": "rich_text",
+      "block_id": "/3JSP",
+      "elements": [
+        {
+          "type": "rich_text_section",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Channel README\u00a0/\u00a0Confessions\u00a0Thread\u00a0Archive\u00a0Directory"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "canvas_creator_id": "U03G176GL23",
+  "team_pref_version_history_enabled": true,
+  "canvas_printing_enabled": true,
+  "source_canvas_id": "F061857QR8C",
+  "is_ai_suggested": false,
+  "editors": [
+    "U07CAPBB9B5",
+    "U0902CM340K",
+    "U05JX2BHANT",
+    "U06R2TVCTNY",
+    "U04CBLNSVH6",
+    "U05C64XMMHV",
+    "U0616280E6P",
+    "U01D9DWGEB0"
+  ],
+  "edit_timestamp": 1756351033,
+  "show_badge": true,
+  "comments_count": 0
+}

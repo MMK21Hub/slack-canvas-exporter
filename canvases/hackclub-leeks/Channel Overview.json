@@ -1,0 +1,110 @@
+{
+  "id": "F069XN8CJFL",
+  "created": 1702458340,
+  "timestamp": 1702458340,
+  "name": "Untitled",
+  "title": "Untitled",
+  "mimetype": "application/vnd.slack-docs",
+  "filetype": "quip",
+  "pretty_type": "Canvas",
+  "user": "U04AQNZRJQ5",
+  "user_team": "T0266FRGM",
+  "editable": true,
+  "size": 1017,
+  "mode": "quip",
+  "is_external": false,
+  "external_type": "",
+  "is_public": true,
+  "public_url_shared": false,
+  "display_as_bot": false,
+  "username": "",
+  "url_private": "https://files.slack.com/files-pri/T0266FRGM-F069XN8CJFL/canvas",
+  "url_private_download": "https://files.slack.com/files-pri/T0266FRGM-F069XN8CJFL/download/canvas",
+  "permalink": "https://hackclub.slack.com/docs/T0266FRGM/F069XN8CJFL",
+  "permalink_public": "https://slack-files.com/T0266FRGM-F069XN8CJFL-f7b8bf382d",
+  "url_static_preview": "https://hackclub.slack.com/docs/T0266FRGM/F069XN8CJFL/mobile",
+  "quip_thread_id": "eCD9AArdRBm",
+  "updated": 1754430503,
+  "update_notification": 1722003309,
+  "canvas_readtime": 0.77318346045765,
+  "favorites": [],
+  "is_starred": false,
+  "shares": {
+    "public": {
+      "C06089401GT": [
+        {
+          "reply_users": [],
+          "reply_users_count": 0,
+          "reply_count": 0,
+          "ts": "1747139323.915449",
+          "channel_name": "hackclub-leeks",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "U04AQNZRJQ5",
+          "source": "CHANNEL_TAB",
+          "is_silent_share": true
+        },
+        {
+          "reply_users": [],
+          "reply_users_count": 0,
+          "reply_count": 0,
+          "ts": "0000000000.000000",
+          "date_last_shared": 1702458340,
+          "channel_name": "hackclub-leeks",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "USLACKBOT",
+          "source": "UNKNOWN",
+          "is_silent_share": false
+        }
+      ]
+    }
+  },
+  "channels": [
+    "C06089401GT"
+  ],
+  "groups": [],
+  "ims": [],
+  "has_more_shares": false,
+  "access": "write",
+  "private_channels_with_file_access_count": 0,
+  "dm_mpdm_users_with_file_access": [
+    {
+      "user_id": "U04AQNZRJQ5",
+      "access": "write"
+    }
+  ],
+  "teams_shared_with": [],
+  "is_restricted_sharing_enabled": true,
+  "has_rich_preview": false,
+  "file_access": "visible",
+  "org_or_workspace_access": "none",
+  "title_blocks": [
+    {
+      "type": "rich_text",
+      "block_id": "DOYmi",
+      "elements": [
+        {
+          "type": "rich_text_section",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Untitled"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "canvas_creator_id": "U04AQNZRJQ5",
+  "team_pref_version_history_enabled": true,
+  "canvas_printing_enabled": true,
+  "is_ai_suggested": false,
+  "editors": [
+    "U07CAPBB9B5",
+    "U04AQNZRJQ5"
+  ],
+  "edit_timestamp": 1722011042,
+  "show_badge": false,
+  "comments_count": 0
+}

@@ -1,0 +1,112 @@
+{
+  "id": "F07H6LUGY85",
+  "created": 1723828733,
+  "timestamp": 1723828733,
+  "name": "Canvas",
+  "title": "Canvas",
+  "mimetype": "application/vnd.slack-docs",
+  "filetype": "quip",
+  "pretty_type": "Canvas",
+  "user": "U03NJ5A39B7",
+  "user_team": "T0266FRGM",
+  "editable": true,
+  "size": 1673,
+  "mode": "quip",
+  "is_external": false,
+  "external_type": "",
+  "is_public": true,
+  "public_url_shared": false,
+  "display_as_bot": false,
+  "username": "",
+  "url_private": "https://files.slack.com/files-pri/T0266FRGM-F07H6LUGY85/canvas",
+  "url_private_download": "https://files.slack.com/files-pri/T0266FRGM-F07H6LUGY85/download/canvas",
+  "permalink": "https://hackclub.slack.com/docs/T0266FRGM/F07H6LUGY85",
+  "permalink_public": "https://slack-files.com/T0266FRGM-F07H6LUGY85-3292d61fcf",
+  "url_static_preview": "https://hackclub.slack.com/docs/T0266FRGM/F07H6LUGY85/mobile",
+  "quip_thread_id": "VGN9AAd832I",
+  "updated": 1743701236,
+  "update_notification": 1736621698,
+  "canvas_readtime": 1.3873946206343,
+  "favorites": [],
+  "is_starred": false,
+  "shares": {
+    "public": {
+      "C07GRLFC0HM": [
+        {
+          "reply_users": [],
+          "reply_users_count": 0,
+          "reply_count": 0,
+          "ts": "1747563176.597319",
+          "channel_name": "greenhouse",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "U03NJ5A39B7",
+          "source": "CHANNEL_TAB",
+          "is_silent_share": true
+        },
+        {
+          "reply_users": [],
+          "reply_users_count": 0,
+          "reply_count": 0,
+          "ts": "0000000000.000000",
+          "date_last_shared": 1723828733,
+          "channel_name": "greenhouse",
+          "team_id": "T0266FRGM",
+          "access": "write",
+          "share_user_id": "USLACKBOT",
+          "source": "UNKNOWN",
+          "is_silent_share": false
+        }
+      ]
+    }
+  },
+  "channels": [
+    "C07GRLFC0HM"
+  ],
+  "groups": [],
+  "ims": [],
+  "has_more_shares": false,
+  "access": "write",
+  "private_channels_with_file_access_count": 0,
+  "dm_mpdm_users_with_file_access": [
+    {
+      "user_id": "U03NJ5A39B7",
+      "access": "write"
+    }
+  ],
+  "teams_shared_with": [],
+  "is_restricted_sharing_enabled": true,
+  "has_rich_preview": false,
+  "file_access": "visible",
+  "org_or_workspace_access": "none",
+  "title_blocks": [
+    {
+      "type": "rich_text",
+      "block_id": "bgmuh",
+      "elements": [
+        {
+          "type": "rich_text_section",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Canvas"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "canvas_creator_id": "U03NJ5A39B7",
+  "team_pref_version_history_enabled": true,
+  "canvas_printing_enabled": true,
+  "is_ai_suggested": false,
+  "editors": [
+    "U071JHBEJ7R",
+    "U03NJ5A39B7",
+    "U075VTXR7D4",
+    "U04MDFEBL2U"
+  ],
+  "edit_timestamp": 1736621724,
+  "show_badge": false,
+  "comments_count": 0
+}

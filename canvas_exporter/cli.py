@@ -52,6 +52,3 @@ def join_channel(channel_id: str, token: str):
 
 cli.add_command(export)
 cli.add_command(join_channel)
-
-if __name__ == "__main__":
-    cli()

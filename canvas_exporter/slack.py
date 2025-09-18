@@ -1,6 +1,8 @@
+import urllib.parse
 import requests
 from slack_sdk import WebClient
 from slack_sdk.errors import SlackApiError
+import urllib
 from canvas_exporter.constants import HACK_CLUB_WORKSPACE
 
 
@@ -26,3 +28,9 @@ class SlackClient:
         response = requests.get(url, headers=self.headers)
         response.raise_for_status()
         return response.text
+
+    def get_canvas_from_url(self, canvas_url: str):
+        url = urllib.parse.urlparse(canvas_url)
+        path = url.path.strip("/").split("/")
+        if path[0] != "docs":
+            raise ValueError("Unexpected canvas URL format")

@@ -1,0 +1,4 @@
+/* Hide the names of custom emojis (e.g. :summer25:) */
+control:has(img[src*="emoji.slack-edge.com"]) {
+  font-size: 0;
+}

@@ -10,11 +10,16 @@ def canvas_html_url(canvas_id: str) -> str:
 
 
 @click.command()
+@click.option("--token", envvar="SLACK_TOKEN")
 @click.argument("canvas_id")
-def export(canvas_id: str):
+def export(canvas_id: str, token: str):
+    if not token:
+        raise click.UsageError("SLACK_TOKEN environment variable is required")
+
     url = canvas_html_url(canvas_id)
     print(f"Canvas URL: {url}")
-    response = requests.get(url)
+    headers = {"Authorization": f"Bearer {token}"}
+    response = requests.get(url, headers=headers)
     response.raise_for_status()
     file_path = Path("output", f"{canvas_id}.html")
     file_path.parent.mkdir(parents=True, exist_ok=True)

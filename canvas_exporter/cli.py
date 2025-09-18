@@ -1,8 +1,13 @@
 from email.policy import default
 from pathlib import Path
+from typing import Annotated
 import click
+import yaml
 from slack_sdk.errors import SlackApiError
 from canvas_exporter.slack import SlackClient
+from pydantic import BaseModel, field_validator, Field
+
+from canvas_exporter.slack_types import CanvasId, ChannelId
 
 
 @click.group()
@@ -37,6 +42,28 @@ def join_channel(channel_id: str, token: str):
         print(f"Joined channel {channel_id} (#{response['channel']['name']})")
     except SlackApiError as e:
         print(f"Error joining channel: {e.response['error']}")
+
+
+class CanvasesConfig(BaseModel):
+    channels: dict[ChannelId, list[CanvasId]]  # channel_id -> list of canvas_ids
+
+
+@click.command()
+@click.option("--token", envvar=["SLACK_TOKEN", "SLACK_BOT_TOKEN"])
+@click.argument("config_file", type=click.Path(exists=True))
+def from_file(config_file: str, token: str):
+    if not token:
+        raise click.UsageError("SLACK_TOKEN environment variable is required")
+    with open(config_file, "r") as file:
+        data = yaml.safe_load(file)
+        config = CanvasesConfig(**data)
+    slack = SlackClient(token)
+    for channel_id in config.channels:
+        try:
+            response = slack.join_channel(channel_id)
+            print(f"✅ Joined channel {channel_id} (#{response['channel']['name']})")
+        except SlackApiError as e:
+            print(f"Error joining channel {channel_id}: {e.response['error']}")
 
 
 cli.add_command(export)

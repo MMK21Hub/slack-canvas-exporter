@@ -1,0 +1,56 @@
+# /sdt whoami
+channels:
+  C090JKDJYN8: #summer-of-making-help
+    F090MQF0H2Q: "Summer of Making FAQ"
+  C099P9FQQ91: #ask-the-shipwrights
+    F099JTRJXRA: "Ships x3 (FAQ)"
+  C09DQ3EB40L: #summer-of-making-grand-survey-expedition
+    F09E6RERGTT: "Questions and Answers"
+  C01KCAHJZ9R: #github-embassy
+    F07TR9ZMKC6: "Channel Overview"
+  C015M4L9AHW: #summer-of-making
+    F095TDGGAD9: "Double-Dippable YSWSs"
+    F095UL8PRQF: "Custom CSS Cheatsheet"
+  CNMU9L92Q: #confessions
+    F08HU1DD1AP: "Resources"
+    F05J42U4YKG: "Channel Overview"
+    F082PH80BQV: "The Vape Lore"
+  C0188CY57PZ: #meta
+    F0979Q230BS: "Meta Threads Archive Directory"
+  C036FJX06HK: #alumni
+    F09BJ2KE0P7: "Alumni Society README"
+  C067WHE64H5: #free-stuff
+    F06VD6YJ8C9: "Welcome to free-stuff"
+  C07GRLFC0HM: #greenhouse
+    F07H6LUGY85: "Canvas"
+  C089VQAULJ0: #hack-market
+    F08BGA54BJT: "HM Planning"
+  C09DR3WJX2N: #hackatime-reversing
+    F09DWS6GE8N: "Hackatime API"
+    F09DWSRK1V4: "Workings of Hackatime"
+  C06089401GT: #hackclub-leeks
+    F069XN8CJFL: "Channel Overview"
+  C0C78SG9L: #hq
+    F09G8G3GB6V: "Migration FAQs"
+  C05SVRTCDGV: #hq-engineering
+    F05TY6SLR5J: "Service Migrations"
+  C08F7DZH3RR: #igcse-alevel
+    F08ESUWFWSK: "IGCSE / GCE"
+    F08F9K391K6: "A/AS Level"
+  C09G7MZLP97: #just-incase
+    F09FYDNRK0C: "JstIncase"
+  C06RPCQH482: #nest-meta
+    F06STC6KL9M: "Canvas"
+    F095H95SGKF: "Data Everywhere"
+  C07EZJ156TE: #orpheus-pico-bts
+    F08KP61PVJA: "Orpheus Pico Atlas"
+  C013AGZKYCS: #question-of-the-day
+    F0989JMNU95: "QOTD Thread Archive Directory"
+  C07H1R2PW9W: #recaptime-dev
+    F07HRD5BJ21: "Channel README"
+  C08D0UDBSLX: #spaces
+    F08DVLM57LM: "Bug Reports & Reward Tracking"
+    F08DU63AE57: "Hackclub Spaces (We need YOU!)"
+  C08HFHD3895: #tailscale-ring
+    F08HPT1FLT0: "Tailscale Exit Nodes"
+    F08HYJGMCG3: "Install Tailscale without root or a package manager"

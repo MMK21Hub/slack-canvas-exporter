@@ -1,8 +1,9 @@
 from email.policy import default
+import json
 from pathlib import Path
 from typing import Annotated
 import click
-from click import echo
+from click import echo, secho
 import yaml
 from slack_sdk.errors import SlackApiError
 from canvas_exporter.slack import SlackClient
@@ -69,10 +70,12 @@ def from_file(config_file: str, token: str, output: Path):
             )
         config = CanvasesConfig(**data)
     slack = SlackClient(token)
+    channel_names: dict[str, str] = {}
     echo(f"Ensuring the bot is in all {len(config.channels)} listed channels...")
     for channel_id in config.channels:
         try:
             response = slack.join_channel(channel_id)
+            channel_names[channel_id] = response["channel"]["name"]
             if "warning" in response and response["warning"] == "already_in_channel":
                 echo(
                     f"✅ Already in channel {channel_id} (#{response['channel']['name']})"
@@ -81,6 +84,22 @@ def from_file(config_file: str, token: str, output: Path):
                 echo(f"🆕 Joined channel {channel_id} (#{response['channel']['name']})")
         except SlackApiError as e:
             echo(f"💥 Error joining channel {channel_id}: {e.response['error']}")
+    echo("Downloading canvases...")
+    for channel_id, canvases in config.channels.items():
+        channel_name = channel_names.get(channel_id, channel_id)
+        channel_dir = output / channel_name
+        channel_dir.mkdir(parents=True, exist_ok=True)
+        for canvas_id, canvas_name in canvases.items():
+            canvas_info = slack.client.files_info(file=canvas_id)
+            if not canvas_info["ok"]:
+                secho(
+                    f"💥 Error fetching canvas {canvas_id}: {canvas_info['error']}",
+                    fg="red",
+                )
+                continue
+            canvas_info_json = json.dumps(canvas_info["file"], indent=2)
+            with open(channel_dir / f"{canvas_name}.json", "w") as json_file:
+                json_file.write(canvas_info_json)
 
 
 cli.add_command(export)

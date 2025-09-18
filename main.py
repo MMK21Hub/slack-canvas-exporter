@@ -1,3 +1,4 @@
+from pathlib import Path
 import click
 import requests
 
@@ -15,7 +16,10 @@ def export(canvas_id: str):
     print(f"Canvas URL: {url}")
     response = requests.get(url)
     response.raise_for_status()
-    file_name = f"{canvas_id}.html"
+    file_path = Path("output", f"{canvas_id}.html")
+    file_path.parent.mkdir(parents=True, exist_ok=True)
+    file_path.write_text(response.text)
+    print(f"Exported to {file_path}")
 
 
 if __name__ == "__main__":

@@ -2,6 +2,7 @@ from email.policy import default
 from pathlib import Path
 from typing import Annotated
 import click
+from click import echo
 import yaml
 from slack_sdk.errors import SlackApiError
 from canvas_exporter.slack import SlackClient
@@ -27,7 +28,7 @@ def export(canvas_id: str, token: str, output: str | None):
     file_path = Path(output) if output else Path("output", f"{canvas_id}.html")
     file_path.parent.mkdir(parents=True, exist_ok=True)
     file_path.write_text(html_content, encoding="utf-8")
-    print(f"Exported to {file_path}")
+    echo(f"Exported to {file_path}")
 
 
 @click.command("join")
@@ -39,9 +40,9 @@ def join_channel(channel_id: str, token: str):
     slack = SlackClient(token)
     try:
         response = slack.join_channel(channel_id)
-        print(f"Joined channel {channel_id} (#{response['channel']['name']})")
+        echo(f"Joined channel {channel_id} (#{response['channel']['name']})")
     except SlackApiError as e:
-        print(f"Error joining channel: {e.response['error']}")
+        echo(f"Error joining channel: {e.response['error']}")
 
 
 class CanvasesConfig(BaseModel):
@@ -68,20 +69,18 @@ def from_file(config_file: str, token: str, output: Path):
             )
         config = CanvasesConfig(**data)
     slack = SlackClient(token)
+    echo(f"Ensuring the bot is in all {len(config.channels)} listed channels...")
     for channel_id in config.channels:
-        print(f"Ensuring the bot is in all {len(config.channels)} channels...")
         try:
             response = slack.join_channel(channel_id)
             if "warning" in response and response["warning"] == "already_in_channel":
-                print(
+                echo(
                     f"✅ Already in channel {channel_id} (#{response['channel']['name']})"
                 )
             else:
-                print(
-                    f"🆕 Joined channel {channel_id} (#{response['channel']['name']})"
-                )
+                echo(f"🆕 Joined channel {channel_id} (#{response['channel']['name']})")
         except SlackApiError as e:
-            print(f"💥 Error joining channel {channel_id}: {e.response['error']}")
+            echo(f"💥 Error joining channel {channel_id}: {e.response['error']}")
 
 
 cli.add_command(export)

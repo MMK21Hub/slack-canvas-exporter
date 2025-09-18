@@ -97,9 +97,8 @@ def from_file(config_file: str, token: str, output: Path):
                     fg="red",
                 )
                 continue
-            canvas_info_json = json.dumps(canvas_info["file"], indent=2)
             with open(channel_dir / f"{canvas_name}.json", "w") as json_file:
-                json_file.write(canvas_info_json)
+                json.dump(canvas_info["file"], json_file, indent=2)
 
 
 cli.add_command(export)

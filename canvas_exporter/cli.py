@@ -1,15 +1,8 @@
 from email.policy import default
 from pathlib import Path
 import click
-import requests
-
-HACK_CLUB_WORKSPACE = "T0266FRGM"
-from slack_sdk import WebClient
 from slack_sdk.errors import SlackApiError
-
-
-def canvas_html_url(canvas_id: str) -> str:
-    return f"https://files.slack.com/files-pri/{HACK_CLUB_WORKSPACE}-{canvas_id}/canvas"
+from canvas_exporter.slack import SlackClient
 
 
 @click.group()
@@ -24,15 +17,11 @@ def cli():
 def export(canvas_id: str, token: str, output: str | None):
     if not token:
         raise click.UsageError("SLACK_TOKEN environment variable is required")
-
-    url = canvas_html_url(canvas_id)
-    print(f"Canvas URL: {url}")
-    headers = {"Authorization": f"Bearer {token}"}
-    response = requests.get(url, headers=headers)
-    response.raise_for_status()
+    slack = SlackClient(token)
+    html_content = slack.get_canvas_html(canvas_id)
     file_path = Path(output) if output else Path("output", f"{canvas_id}.html")
     file_path.parent.mkdir(parents=True, exist_ok=True)
-    file_path.write_text(response.text)
+    file_path.write_text(html_content, encoding="utf-8")
     print(f"Exported to {file_path}")
 
 
@@ -42,9 +31,9 @@ def export(canvas_id: str, token: str, output: str | None):
 def join_channel(channel_id: str, token: str):
     if not token:
         raise click.UsageError("SLACK_TOKEN environment variable is required")
-    client = WebClient(token=token)
+    slack = SlackClient(token)
     try:
-        response = client.conversations_join(channel=channel_id)
+        response = slack.join_channel(channel_id)
         print(f"Joined channel {channel_id} (#{response['channel']['name']})")
     except SlackApiError as e:
         print(f"Error joining channel: {e.response['error']}")

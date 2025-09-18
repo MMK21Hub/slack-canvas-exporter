@@ -4,6 +4,7 @@ from pathlib import Path
 from typing import Annotated
 import click
 from click import echo, secho
+from requests import HTTPError
 import yaml
 from slack_sdk.errors import SlackApiError
 from canvas_exporter.slack import SlackClient
@@ -99,6 +100,20 @@ def from_file(config_file: str, token: str, output: Path):
                 continue
             with open(channel_dir / f"{canvas_name}.json", "w") as json_file:
                 json.dump(canvas_info["file"], json_file, indent=2)
+            try:
+                html_file = channel_dir / f"{canvas_name}.html"
+                with open(html_file, "w") as html_file:
+                    html_content = slack.get_canvas_html(canvas_id)
+                    html_file.write(html_content)
+                secho(
+                    f"✅ Exported canvas {canvas_id} ({canvas_name}) from #{channel_name} to {html_file}",
+                    fg="blue",
+                )
+            except HTTPError as e:
+                secho(
+                    f"💥 Error fetching canvas {canvas_id} ({canvas_name}): {e}",
+                    fg="red",
+                )
 
 
 cli.add_command(export)

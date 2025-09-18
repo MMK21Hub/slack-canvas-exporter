@@ -10,7 +10,7 @@ def canvas_html_url(canvas_id: str) -> str:
 
 
 @click.command()
-@click.option("--token", envvar="SLACK_TOKEN")
+@click.option("--token", envvar=["SLACK_TOKEN", "SLACK_BOT_TOKEN"])
 @click.argument("canvas_id")
 def export(canvas_id: str, token: str):
     if not token:
